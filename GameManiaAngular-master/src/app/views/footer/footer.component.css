@@ -1,0 +1,79 @@
+/*FOOTER*/
+
+.footer {
+  width: 100%;
+  background: #000;
+  color: #fff;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+.footer-cont {
+  display: flex;
+}
+
+.footer h3 {
+  font-size: 18px;
+  line-height: 25px;
+  color: #3ebcfe;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: bold;
+}
+
+.footer h3:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #3ebcfe;
+  margin: 6px 0 12px 0;
+}
+
+.footer-historia {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 500px;
+  padding-left: 100px;
+}
+
+.footer_historia p {
+  font-size: 20px;
+}
+
+.footer-contato {
+  padding-left: 300px;
+}
+.footer-contato ul li {
+  font-size: 16px;
+  line-height: 20px;
+  font-family: Georgia, "Times New Roman", serif;
+}
+.footer-redes {
+  padding-left: 400px;
+}
+.footer-redes ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.footer-redes ul li a {
+  border: 3px solid #3ebcfe;
+  display: block;
+  padding: 10px;
+}
+.footer-redes ul li a:hover {
+  border-color: #fff;
+}
+
+.copy {
+  width: 100%;
+  background: #3ebcfe;
+}
+.copy p {
+  text-align: center;
+  padding: 20px 0;
+}
+.container > p:nth-child(1) {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}

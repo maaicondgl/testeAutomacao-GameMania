@@ -1,0 +1,14 @@
+.subtitulo {
+  text-align: center;
+  padding: 40px 0;
+  font-weight: bold;
+  color: #fff;
+}
+.container-found {
+  background-color: black;
+  width: 100%;
+  margin: 0;
+}
+.container-found img {
+  padding: 0 410px;
+}

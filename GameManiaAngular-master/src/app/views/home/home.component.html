@@ -1,0 +1,97 @@
+<!-- INTRODUÇAO -->
+<!-- <section class="intro">
+  <div class="intro-cont">
+    <h1>MONTAMOS SEU COMPUTADOR COM O TAMANHO DO SEU SONHO</h1>
+    <blockquote>
+      <p>“Os videogames estimulam a criatividade e ainda trazem horas incríveis de diversão”</p>
+      <cite>GameMania</cite>
+    </blockquote>
+  </div>
+</section> -->
+<!-- PRODUTOS -->
+<section class="produtos-cont">
+  <div class="produto-cont2">
+    <h2 class="subtitulo">produtos</h2>
+    <ul class="produtos-lista">
+      <li class="produto-item produto-item1">
+        <div class="produto-icone">
+          <img src="assets\img\computador.svg" alt="GameMania computador">
+          <a href="/produtos">computador</a>
+        </div>
+
+      </li>
+
+      <li class="produto-item produto-item2">
+        <div class="produto-icone">
+          <img src="assets\img\videogame.svg" alt="GameMania videogame">
+          <a href="/produtos">videogame</a>
+        </div>
+
+      </li>
+
+      <li class="produto-item produto-item3">
+        <div class="produto-icone">
+          <img src="assets\img\jogos.svg" alt="GameMania">
+          <a href="/produtos">jogos</a>
+        </div>
+
+      </li>
+      <li class="produto-item produto-item4">
+        <div class="produto-icone">
+          <img src="assets\img\news.png" alt="GameMania">
+          <a href="/news">news</a>
+        </div>
+
+      </li>
+    </ul>
+  </div>
+</section>
+<!-- CLIENTE -->
+<section class="cliente">
+  <h2 class="titulo-cliente">nossos clientes</h2>
+  <div class="foto-cliente">
+    <img src="assets\img\Mask Group.png" alt="fotos-clientes">
+    <img src="assets\img\Mask Group.png" alt="fotos-clientes">
+    <img src="assets\img\Mask Group.png" alt="fotos-clientes">
+    <img src="assets\img\Mask Group.png" alt="fotos-clientes">
+    <img src="assets\img\Mask Group.png" alt="fotos-clientes">
+    <img src="assets\img\Mask Group.png" alt="fotos-clientes">
+    <img src="assets\img\Mask Group.png" alt="fotos-clientes">
+    <img src="assets\img\Mask Group.png" alt="fotos-clientes">
+  </div>
+</section>
+<section class="secao-noticias">
+  <div class="noticias">
+    <div class="bloco-noticias">
+      <h2>Noticias</h2>
+      <div id="espaco-noticias" class="content-news">
+        <div *ngFor="let noticia of listaNoticias" class="cardnews">
+          <img src="assets\img\cardnews.jpg" alt="Foto da jogadora profissional">
+          <div class="texto-card">
+            <h3>{{noticia.titulo}}</h3>
+            <p>{{noticia.descricao}}</p>
+            <a href="/produtos">leia mais</a>
+          </div>
+        </div>
+        <!-- <div class="texto-card">
+          <h3>noticia</h3>
+          <p>Silvio Santos Ipsum Ma tem ou não tem o celular do milhãouamm? Ma você está certo dissoam? Estamos em ritmo de festamm. É namoro ou amizadeemm? Ma quem quer dinheiroam? Ma! Ao adquirir o carnê do Baú, você estará concorrendo a um prêmio de cem mil reaisam. Mah roda a roduamm.</p>
+        </div> -->
+      </div>
+    </div>
+  </div>
+
+</section>
+<div class="bg-footer">
+  <blockquote class="bg-externo">
+    <p>“Meu sonho é viver em um mundo que posso jogar o dia inteiro e ninguém vai reclamar comigo”
+    <p>
+      <cite>desconhecido</cite>
+  </blockquote>
+</div>
+
+
+
+
+
+<script src="js/script.js"></script>

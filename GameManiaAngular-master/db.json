@@ -1,0 +1,41 @@
+{
+  "users": [
+    {
+      "email": "maicon@mail.com",
+      "password": "$2a$10$KTYzpkulfZdxw5dC1aaoYucPIEeuhXvgA0tjnZRp.p9//8Kko4G1u",
+      "id": 1
+    }
+  ],
+  "noticias": [
+    {
+      "id": 1,
+      "titulo": "Xbox",
+      "descricao": "ofertas da Black Friday têm jogos com até 50% de desconto"
+    },
+    {
+      "titulo": "GTA Trilogy",
+      "descricao": "primeiro patch corrige diversos problemas",
+      "id": 2
+    },
+    {
+      "titulo": "Xbox",
+      "descricao": "Microsoft está buscando formas de manter jogos quando CMOS 'morrer'",
+      "id": 3
+    },
+    {
+      "titulo": "Arcane",
+      "descricao": "Netflix renova série de LoL para a segunda temporada",
+      "id": 4
+    },
+    {
+      "titulo": "Final Fantasy VII",
+      "descricao": "alcança 1 milhão de downloads",
+      "id": 5
+    },
+    {
+      "titulo": "ficou rico",
+      "descricao": "jogador de  freefire ganha 1 mi em campeonato",
+      "id": 6
+    }
+  ]
+}
